@@ -1,0 +1,39 @@
+#container{
+    background-color: coral;
+    width: 800px;
+    margin:auto;
+}
+
+#upper_menu {
+    background-color: cornflowerblue;
+    height:56px;
+    repeat-x;
+    font-weight:ComicSans
+}
+#upper_menu ul {
+    text-align:center;padding-top:17px
+}
+#upper_menu li {
+    list-style:none;display:inline;
+    padding:3px 20px 3px 8px;
+}
+
+.unica-c-div__primero{
+    font-size: 0.5em;
+    color: red;
+}
+.unica-c-div__segundo{
+    font-size: 2em;
+    color: blue;
+}
+
+body{
+    font-size: 16px;
+}
+
+@media (max-width: 800px){
+    .unica-c-div__primero{
+        color:blue;
+        background-color: crimson;
+    }
+}
