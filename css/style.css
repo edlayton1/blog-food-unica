@@ -1,39 +1,62 @@
+body{
+    font-size: 16px;
+    background-color: #ffc971;
+}
+
 #container{
-    background-color: coral;
+    background-color: #ffb627;
     width: 800px;
     margin:auto;
 }
 
 #upper_menu {
-    background-color: cornflowerblue;
+    background-color: #bf2e1a;
     height:56px;
-    repeat-x;
-    font-weight:ComicSans
 }
 #upper_menu ul {
-    text-align:center;padding-top:17px
+    text-align:center;
+    padding-top:17px
+    
 }
 #upper_menu li {
-    list-style:none;display:inline;
+    list-style:none;
+    display:inline;
     padding:3px 20px 3px 8px;
+    
+}
+#upper_menu a{
+    text-decoration: none;
+    color: gold;
 }
 
-.unica-c-div__primero{
-    font-size: 0.5em;
-    color: red;
+.information-block{
+    background-color: #e2711d;
+    width:800px;
+    height:125px;
 }
-.unica-c-div__segundo{
-    font-size: 2em;
-    color: blue;
+.information-block h1 {
+    color:#000000;
+    font-size:30px;
+    font-weight:bold;
+    padding:0px 20px 0px 20px
 }
 
-body{
-    font-size: 16px;
+.information-block h2 {
+    color:#333131;
+    font-size:15px;
+    text-align: right;
+    padding:0px 0px 0px 0px
 }
-
-@media (max-width: 800px){
-    .unica-c-div__primero{
-        color:blue;
-        background-color: crimson;
-    }
+.content-body{
+    background-color: #e2711d;
+    width:800px;
+    height:125px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.content-body .about{
+    background-color: gold;
+    width: 85%;
+    
 }
