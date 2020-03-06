@@ -2,7 +2,18 @@ body{
     font-size: 16px;
     background-color: #f6aa1c;
 }
-
+@font-face{
+    font-family: "Lobster";
+    src:url("/src/fonts/Lobster/Lobster-Regular.ttf");
+}
+@font-face{
+    font-family: "Dancing_Script_Regular";
+    src: url("/src/fonts/Dancing_Script/static/DancingScript-Regular.ttf")
+}
+@font-face{
+    font-family: "PT_Sans_Caption_Regular";
+    src: url("/src/fonts/PT_Sans_Caption/PTSansCaption-Regular.ttf")
+}
 #container{
     background-color: #941b0c;
     width: 800px;
@@ -31,12 +42,14 @@ body{
 }
 
 .information-block{
+
     background-color: #220901;
     width:800px;
     height:125px;
 }
 .information-block h1 {
     color:#fff;
+    font-family: "Lobster",regular;
     font-size:30px;
     font-weight:bolder;
     padding:20px 20px 0px 20px;
@@ -45,6 +58,7 @@ body{
 
 .information-block h2 {
     color:#f3eded;
+    font-family: "Lobster";
     font-size:15px;
     text-align: right;
     padding:20px 20px 20px 20px
@@ -69,6 +83,11 @@ body{
     padding-left: 85px;
     align-content: center;
 }
+.content-body-log form h3{
+    font-family: "PT_Sans_Caption_Regular";
+    color: white;
+    font-size: 20px;
+}
 .content-body .about{
     background-color: gold;
     width: 65%;
@@ -91,8 +110,8 @@ body{
 .content-body img{
     padding: 85px 55px 25px 25px;
     max-width: 100%;
-    width:200px;
-    height: 150px;
+    width:250px;
+    height: 200px;
     border-radius: 75%;
 }
 @keyframes headerChangeColor{
