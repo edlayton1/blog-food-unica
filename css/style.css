@@ -1,16 +1,16 @@
 body{
     font-size: 16px;
-    background-color: #ffc971;
+    background-color: #aeecef;
 }
 
 #container{
-    background-color: #ffb627;
+    background-color: #119da4;
     width: 800px;
     margin:auto;
 }
 
 #upper_menu {
-    background-color: #bf2e1a;
+    background-color: #3066be;
     height:56px;
     animation: headerChangeColor 3s infinite;
 }
@@ -31,15 +31,15 @@ body{
 }
 
 .information-block{
-    background-color: #e2711d;
+    background-color: rgb(37, 163, 37);
     width:800px;
     height:125px;
 }
 .information-block h1 {
     color:#000000;
     font-size:30px;
-    font-weight:bold;
-    padding:0px 20px 0px 20px
+    font-weight:bolder;
+    padding:20px 20px 0px 20px
 }
 
 .information-block h2 {
@@ -49,31 +49,55 @@ body{
     padding:0px 0px 0px 0px
 }
 .content-body{
-    background-color: #e2711d;
+    background-color: rgb(10, 168, 10);
     width:800px;
-    height:500px;
+    height:350px;
     margin-top: 25px;
     margin-bottom: 25px;
     display: flex;
     flex-direction: row-reverse;
 }
+.content-body-log form{
+    background-color: rgb(10, 168, 10);
+    width:750px;
+    height:350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 45px;
+    padding: 25px;
+    align-content: center;
+}
 .content-body .about{
     background-color: gold;
-    width: 85%;
+    width: 65%;
+    height: 250px;
     margin-top: 35px;
     margin-bottom: 35px;
     margin-right: 25px;
+    animation: boxChangeColor 5s infinite;
     
 }
 @keyframes headerChangeColor{
     0%{
-        background-color: #bf2e1a;
+        background-color: #3066be;
     }
     50%{
-        background-color: #e95713;
+        background-color: #1c81c4;
     }
     100%{
-        background-color: #bf2e1a;
+        background-color: #3066be;
+    }
+}
+
+@keyframes boxChangeColor{
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: rgb(6, 95, 6);
+    }
+    100%{
+        background-color: green;
     }
 }
 
