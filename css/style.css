@@ -79,7 +79,7 @@ body{
 .content-body-log form{
     background-color: #bc3908;
     width:680px;
-    height:1000px;
+    height:1200px;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-right: 65px;
@@ -110,11 +110,21 @@ body{
     
 }
 .content-body .about h4{
-    padding-top: 45px;
+    padding-top: 25px;
     padding-left: 35px;
     padding-right: 55px;
     color:#fff;
     text-align: justify;
+}
+.content-body .about h5{
+    font-family: "Lobster";
+    font-size: 35px;
+    padding-top: 0px;
+    padding-left: 35px;
+    padding-right: 55px;
+    color:#fff;
+    text-align: center;
+    margin: 25px;
 }
 .content-body img{
     padding: 85px 55px 25px 25px;
