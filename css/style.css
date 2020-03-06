@@ -1,10 +1,10 @@
 body{
     font-size: 16px;
-    background-color: #aeecef;
+    background-color: #f6aa1c;
 }
 
 #container{
-    background-color: #119da4;
+    background-color: #941b0c;
     width: 800px;
     margin:auto;
 }
@@ -31,15 +31,16 @@ body{
 }
 
 .information-block{
-    background-color: rgb(37, 163, 37);
+    background-color: #220901;
     width:800px;
     height:125px;
 }
 .information-block h1 {
-    color:#000000;
+    color:#fff;
     font-size:30px;
     font-weight:bolder;
-    padding:20px 20px 0px 20px
+    padding:20px 20px 0px 20px;
+    text-align: center;
 }
 
 .information-block h2 {
@@ -49,7 +50,7 @@ body{
     padding:0px 0px 0px 0px
 }
 .content-body{
-    background-color: rgb(10, 168, 10);
+    background-color: #bc3908;
     width:800px;
     height:350px;
     margin-top: 25px;
@@ -58,13 +59,13 @@ body{
     flex-direction: row-reverse;
 }
 .content-body-log form{
-    background-color: rgb(10, 168, 10);
-    width:750px;
-    height:350px;
+    background-color: #bc3908;
+    width:730px;
+    height:1000px;
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-right: 45px;
-    padding: 25px;
+    margin-right: 65px;
+    padding: 35px;
     align-content: center;
 }
 .content-body .about{
@@ -79,13 +80,13 @@ body{
 }
 @keyframes headerChangeColor{
     0%{
-        background-color: #3066be;
+        background-color: #941b0c;
     }
     50%{
-        background-color: #1c81c4;
+        background-color: #621708;
     }
     100%{
-        background-color: #3066be;
+        background-color: #941b0c;
     }
 }
 
