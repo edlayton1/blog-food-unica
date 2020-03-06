@@ -44,10 +44,10 @@ body{
 }
 
 .information-block h2 {
-    color:#333131;
+    color:#f3eded;
     font-size:15px;
     text-align: right;
-    padding:0px 0px 0px 0px
+    padding:20px 20px 20px 20px
 }
 .content-body{
     background-color: #bc3908;
@@ -60,12 +60,13 @@ body{
 }
 .content-body-log form{
     background-color: #bc3908;
-    width:730px;
+    width:680px;
     height:1000px;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-right: 65px;
     padding: 35px;
+    padding-left: 85px;
     align-content: center;
 }
 .content-body .about{
@@ -75,8 +76,24 @@ body{
     margin-top: 35px;
     margin-bottom: 35px;
     margin-right: 25px;
+    margin-left: 35px;
+    
     animation: boxChangeColor 5s infinite;
     
+}
+.content-body .about h4{
+    padding-top: 45px;
+    padding-left: 35px;
+    padding-right: 55px;
+    color:#fff;
+    text-align: justify;
+}
+.content-body img{
+    padding: 85px 55px 25px 25px;
+    max-width: 100%;
+    width:200px;
+    height: 150px;
+    border-radius: 75%;
 }
 @keyframes headerChangeColor{
     0%{
@@ -92,13 +109,13 @@ body{
 
 @keyframes boxChangeColor{
     0%{
-        background-color: green;
+        background-color: #941b0c;
     }
     50%{
-        background-color: rgb(6, 95, 6);
+        background-color: #bc3908;
     }
     100%{
-        background-color: green;
+        background-color: #941b0c;
     }
 }
 
