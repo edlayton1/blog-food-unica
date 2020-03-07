@@ -1,10 +1,10 @@
 # blog-food-unica
-##Asesor:
+## Asesor:
 Luis.
-##Integrantes:
+## Integrantes:
 Bautista Ortega Elvia
 Moreno Peralta Angel Eduardo
 Tobon Sosa Edgar
 
-##Objetivo
+## Objetivo
 Crear un Blog de comida fantastica y emocionante!
